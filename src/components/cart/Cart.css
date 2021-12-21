@@ -1,0 +1,19 @@
+.cart {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    cursor: pointer;
+    z-index: 5;
+    padding: 1rem;
+    border-radius: 100px;
+}
+
+@media (min-width: 760px) {
+    .cart {
+        top: 5rem;
+        bottom: unset;
+    }
+
+}
+
+.cart-quantity {}
